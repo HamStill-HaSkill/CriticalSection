@@ -141,11 +141,6 @@
   <ItemGroup>
     <ClCompile Include="CriticalSection.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TestProgram\TestProgram.vcxproj">
-      <Project>{493ddf73-b6a8-4cba-a2de-17148d3dfb02}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
